@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB206A5B1D4A550600A18218 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB206A5A1D4A550600A18218 /* SampleData.plist */; };
+		DB206A6D1D4A7CE800A18218 /* Bowtie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB206A6B1D4A7CE800A18218 /* Bowtie+CoreDataProperties.swift */; };
+		DB206A6E1D4A7CE800A18218 /* Bowtie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB206A6C1D4A7CE800A18218 /* Bowtie.swift */; };
+		DB206A761D4AA93100A18218 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DB206A6F1D4AA93100A18218 /* blue.png */; };
+		DB206A771D4AA93100A18218 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = DB206A701D4AA93100A18218 /* green.png */; };
+		DB206A791D4AA93100A18218 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = DB206A721D4AA93100A18218 /* orange.png */; };
+		DB206A7A1D4AA93100A18218 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = DB206A731D4AA93100A18218 /* red.png */; };
+		DB206A7B1D4AA93100A18218 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = DB206A741D4AA93100A18218 /* violet.png */; };
+		DB206A7C1D4AA93100A18218 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = DB206A751D4AA93100A18218 /* yellow.png */; };
+		DB58E01D1D4A21B9004F1833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58E01C1D4A21B9004F1833 /* AppDelegate.swift */; };
+		DB58E01F1D4A21B9004F1833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB58E01E1D4A21B9004F1833 /* ViewController.swift */; };
+		DB58E0221D4A21B9004F1833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB58E0201D4A21B9004F1833 /* Main.storyboard */; };
+		DB58E0251D4A21B9004F1833 /* BowTies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB58E0231D4A21B9004F1833 /* BowTies.xcdatamodeld */; };
+		DB58E0271D4A21B9004F1833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB58E0261D4A21B9004F1833 /* Assets.xcassets */; };
+		DB58E02A1D4A21B9004F1833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB58E0281D4A21B9004F1833 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB206A5A1D4A550600A18218 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		DB206A6B1D4A7CE800A18218 /* Bowtie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bowtie+CoreDataProperties.swift"; path = "../Bowtie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DB206A6C1D4A7CE800A18218 /* Bowtie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bowtie.swift; path = ../Bowtie.swift; sourceTree = "<group>"; };
+		DB206A6F1D4AA93100A18218 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = BowTies/blue.png; sourceTree = "<group>"; };
+		DB206A701D4AA93100A18218 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = BowTies/green.png; sourceTree = "<group>"; };
+		DB206A721D4AA93100A18218 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = BowTies/orange.png; sourceTree = "<group>"; };
+		DB206A731D4AA93100A18218 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = BowTies/red.png; sourceTree = "<group>"; };
+		DB206A741D4AA93100A18218 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violet.png; path = BowTies/violet.png; sourceTree = "<group>"; };
+		DB206A751D4AA93100A18218 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellow.png; path = BowTies/yellow.png; sourceTree = "<group>"; };
+		DB58E0191D4A21B9004F1833 /* BowTies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowTies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB58E01C1D4A21B9004F1833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB58E01E1D4A21B9004F1833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB58E0211D4A21B9004F1833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB58E0241D4A21B9004F1833 /* BowTies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BowTies.xcdatamodel; sourceTree = "<group>"; };
+		DB58E0261D4A21B9004F1833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB58E0291D4A21B9004F1833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB58E02B1D4A21B9004F1833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB58E0161D4A21B9004F1833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB206A5E1D4A760600A18218 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DB206A6F1D4AA93100A18218 /* blue.png */,
+				DB206A701D4AA93100A18218 /* green.png */,
+				DB206A721D4AA93100A18218 /* orange.png */,
+				DB206A731D4AA93100A18218 /* red.png */,
+				DB206A741D4AA93100A18218 /* violet.png */,
+				DB206A751D4AA93100A18218 /* yellow.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DB58E0101D4A21B9004F1833 = {
+			isa = PBXGroup;
+			children = (
+				DB206A5E1D4A760600A18218 /* images */,
+				DB58E01B1D4A21B9004F1833 /* BowTies */,
+				DB58E01A1D4A21B9004F1833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB58E01A1D4A21B9004F1833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB58E0191D4A21B9004F1833 /* BowTies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB58E01B1D4A21B9004F1833 /* BowTies */ = {
+			isa = PBXGroup;
+			children = (
+				DB206A6B1D4A7CE800A18218 /* Bowtie+CoreDataProperties.swift */,
+				DB206A6C1D4A7CE800A18218 /* Bowtie.swift */,
+				DB58E01C1D4A21B9004F1833 /* AppDelegate.swift */,
+				DB58E01E1D4A21B9004F1833 /* ViewController.swift */,
+				DB58E0201D4A21B9004F1833 /* Main.storyboard */,
+				DB206A5A1D4A550600A18218 /* SampleData.plist */,
+				DB58E0261D4A21B9004F1833 /* Assets.xcassets */,
+				DB58E0281D4A21B9004F1833 /* LaunchScreen.storyboard */,
+				DB58E02B1D4A21B9004F1833 /* Info.plist */,
+				DB58E0231D4A21B9004F1833 /* BowTies.xcdatamodeld */,
+			);
+			path = BowTies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB58E0181D4A21B9004F1833 /* BowTies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB58E02E1D4A21B9004F1833 /* Build configuration list for PBXNativeTarget "BowTies" */;
+			buildPhases = (
+				DB58E0151D4A21B9004F1833 /* Sources */,
+				DB58E0161D4A21B9004F1833 /* Frameworks */,
+				DB58E0171D4A21B9004F1833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowTies;
+			productName = BowTies;
+			productReference = DB58E0191D4A21B9004F1833 /* BowTies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB58E0111D4A21B9004F1833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AStevensProductions;
+				TargetAttributes = {
+					DB58E0181D4A21B9004F1833 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 784436Q99F;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = DB58E0141D4A21B9004F1833 /* Build configuration list for PBXProject "BowTies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB58E0101D4A21B9004F1833;
+			productRefGroup = DB58E01A1D4A21B9004F1833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB58E0181D4A21B9004F1833 /* BowTies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB58E0171D4A21B9004F1833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB58E02A1D4A21B9004F1833 /* LaunchScreen.storyboard in Resources */,
+				DB206A791D4AA93100A18218 /* orange.png in Resources */,
+				DB206A7B1D4AA93100A18218 /* violet.png in Resources */,
+				DB206A7A1D4AA93100A18218 /* red.png in Resources */,
+				DB206A761D4AA93100A18218 /* blue.png in Resources */,
+				DB58E0271D4A21B9004F1833 /* Assets.xcassets in Resources */,
+				DB206A771D4AA93100A18218 /* green.png in Resources */,
+				DB206A5B1D4A550600A18218 /* SampleData.plist in Resources */,
+				DB206A7C1D4AA93100A18218 /* yellow.png in Resources */,
+				DB58E0221D4A21B9004F1833 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB58E0151D4A21B9004F1833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB58E01F1D4A21B9004F1833 /* ViewController.swift in Sources */,
+				DB58E0251D4A21B9004F1833 /* BowTies.xcdatamodeld in Sources */,
+				DB58E01D1D4A21B9004F1833 /* AppDelegate.swift in Sources */,
+				DB206A6E1D4A7CE800A18218 /* Bowtie.swift in Sources */,
+				DB206A6D1D4A7CE800A18218 /* Bowtie+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB58E0201D4A21B9004F1833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB58E0211D4A21B9004F1833 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB58E0281D4A21B9004F1833 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB58E0291D4A21B9004F1833 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB58E02C1D4A21B9004F1833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB58E02D1D4A21B9004F1833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB58E02F1D4A21B9004F1833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BowTies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BFS.BowTies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		DB58E0301D4A21B9004F1833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BowTies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BFS.BowTies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB58E0141D4A21B9004F1833 /* Build configuration list for PBXProject "BowTies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB58E02C1D4A21B9004F1833 /* Debug */,
+				DB58E02D1D4A21B9004F1833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB58E02E1D4A21B9004F1833 /* Build configuration list for PBXNativeTarget "BowTies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB58E02F1D4A21B9004F1833 /* Debug */,
+				DB58E0301D4A21B9004F1833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB58E0231D4A21B9004F1833 /* BowTies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB58E0241D4A21B9004F1833 /* BowTies.xcdatamodel */,
+			);
+			currentVersion = DB58E0241D4A21B9004F1833 /* BowTies.xcdatamodel */;
+			path = BowTies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB58E0111D4A21B9004F1833 /* Project object */;
+}
